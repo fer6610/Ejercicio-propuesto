@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9f0df; /* Color de fondo */
+    text-align: center;
+  }
+ 
+  /* Encabezado */
+  header {
+    background-color: #a5ebf0;
+    color: white;
+    padding: 15px;
+  }
+ 
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+ 
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+ 
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .imagen{
+    justify-content: center;
+    align-items: flex-start;
+  }
