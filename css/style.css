@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #d9f0df; /* Color de fondo */
+    background-color: #2b82c9; /* Color de fondo */
     text-align: center;
   }
  
   /* Encabezado */
   header {
-    background-color: #a5ebf0;
+    background-color: #0cb8d6;
     color: white;
     padding: 15px;
   }
@@ -29,4 +29,59 @@ body {
   .imagen{
     justify-content: center;
     align-items: flex-start;
+  }
+  img{
+width: 100px;
+  }
+  .container{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #ccc;
+    font-family: "Poppins", sans-serif;
+    padding: 30px;
+    }
+    .card{
+      margin: 20px;
+      width: 300px;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0px 5px 10px #000000;
+      font-family: "PT Serif", serif;
+  }
+   
+  .tarjeta{
+      display: flex;
+      justify-content: center;
+  }
+  .card:hover{
+    background-color: #206d63;
+    transform: scale(1.05);
+  }
+  p{
+    padding-left: 20px;
+  }
+   
+  h1{
+    padding-left: 75px;
+  }
+   
+  h2{
+    padding-left: 20px;
+    font-size: 17px;
+  }
+  .tarjeta{
+    display: flex;
+    justify-content: center;
+  }
+  .card img{
+    width: 100px;
+  }
+  .container{
+    display: flex;
+  }
+  .card:hover{
+    flex: 2;
+    background-color: #0cb8d6;
   }
